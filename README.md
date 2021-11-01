@@ -1,2 +1,2 @@
 # JavaScript-Projects
-Hi!  This respository will contain assignments/projects for The Tech Academy.
+Hi!  This respository will contain JavaScript assignments/projects for The Tech Academy.
