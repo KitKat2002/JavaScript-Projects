@@ -7,3 +7,7 @@ firstChicken += "is a 3.5 month old Cornish Rock"
 // Prints the concatenated string
 document.getElementById("Concatenate").innerHTML = firstChicken;
 };
+function Goat() {
+    let smallGoat = "Marigold";
+    document.getElementById()
+}
