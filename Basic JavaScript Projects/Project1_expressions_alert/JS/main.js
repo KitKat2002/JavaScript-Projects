@@ -11,7 +11,7 @@ window.alert(myJob);
 // Allows for apostrophes to be displayed on the webpage 
 document.write("\ Let's\ go to \ Sally's\ house!");
 document.write("Chickens" + " " + "are" + " " + "awesome");
-// Concatenated variable
+// Concatenated string
 let fowl = " " + "chickens" + " " + "and" + " " + "ducks";
 document.write(fowl);
 // Multiple values assigned to one variable
@@ -26,5 +26,8 @@ var Casper = Casper.fontcolor("green");
 document.write(Spot);
 let problem = " 7 + 15";
 document.write(problem);
+let a ="my";
+let b = "dog";
+document.write(a+b);
 
 
