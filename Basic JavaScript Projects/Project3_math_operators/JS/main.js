@@ -44,6 +44,9 @@ function decrements() {
     decrementProblem--;
     document.getElementById("Decrements").innerHTML = "7 decremented by 1 is " + decrementProblem;
 };
+function mathRandom() {
+   let L = Math.random() * 100;
+    document.getElementById("Random").innerHTML = " " + L;
+};
 
-window.alert(Math.random() * 100);
 window.alert(Math.floor(4.25 * 5.75));
