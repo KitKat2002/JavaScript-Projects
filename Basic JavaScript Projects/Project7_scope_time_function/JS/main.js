@@ -54,8 +54,8 @@ function Time_function () {
 };
 
 //function Error_Code() {
- //   var var = 37;
-  //  var E = 34;
-   // console.log(var + E);
+   //var var = 37;
+   //var E = 34;
+    // console.log(var + E);
 //};
 
