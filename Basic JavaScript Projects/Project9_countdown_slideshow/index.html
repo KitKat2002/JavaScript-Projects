@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>okay</title>
+            <meta charset = "utf-8">
+            <meta name="viewport" content="width=device-width" />
+            <script src="JS/main.js"></script>
+            <link rel="stylesheet" type="text/css" href="CSS/main.css">
+        </head>
+<body>
+    <div>
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="" />
+        <button onclick="countdown()">Click here</button>
+        <p id="timer"></p>
+    </div>
+
+    <!--SLIDESHOW CONTAINER-->
+
+    <div class="slideshow-container">
+
+    <!--FULL=WIDTH IMAGES WITH NUMBER AND CAPTION TEXT-->
+        <!--IMAGE 1-->
+    <div class = "mySlides fade">
+        <div class = "numbertext">1 / 3</div>
+        <img src = "./Images/rooster.jpg" style="width:100%" alt ="image not found">
+        <div class="text">Rooster</div>
+    </div>
+        <!--END OF IMAGE 1-->
+
+        <!--IMAGE 2-->
+    <div class="mySlides fade">
+        <div class = "numbertext">2 / 3</div>
+        <img src = "./Images/hen.png" style="width:100%" alt = "image not found">
+        <div class="text">Hen</div>
+    </div>
+        <!--END OF IMAGE 2-->
+
+        <!--IMAGE 3--> 
+    <div class="mySlides fade">
+        <div class = "numbertext">3 / 3</div>
+        <img src = "./Images/roast_chicken.png" style="width:100%" alt = "image not found">
+        <div class="text">Roast Chicken</div>
+    </div>
+       <!--END OF IMAGE 3-->
+
+       <!--NEXT AND PREVIOUS BUTTONS-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+      <!--END OF NEXT AND PREVIOUS BUTTONS-->
+
+    <!--THE DOTS/CIRCLES-->
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</body>
+</html>
