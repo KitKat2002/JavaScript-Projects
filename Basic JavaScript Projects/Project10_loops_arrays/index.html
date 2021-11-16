@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>..</title>
+        <script src="JS/main.js"></script>
+    </head>
+<body>
+    <p id="Loop"></p>
+        <button onclick="Call_Loop()">Click here to execute the loop</button>
+    
+    <p id = "tired"></p>
+    <p>Above is the length of the string "I'm tired."</p>
+    <script>
+        let text = "I'm tired";
+        document.getElementById("tired").innerHTML = text.length;;
+    </script>
+
+    <p id="List_of_Instruments"></p>
+        <button onclick="for_Loop()">Click here</button>
+
+    <p id="Array">
+        <button onclick ="array_Function()">Click Here..</button>
+    </p>
+
+    <p id="Constant"></p>
+    <button onclick="constant_function()">Click here!</button>
+
+    <p id = "animal_object"></p>
+    <p id = "break" onclick="break_trial()">why</p>
+    <p id = "continue" onclick="continue_trial()">am I here</p>
+
+    <script>
+        let animal = {
+            breed: "Leghorn",
+            color: "White",
+            gender: "Hen",
+            description : function() {
+                return "This is a " + this.color + " " + this.breed + " " + this.gender;
+            }
+        }
+        document.getElementById("animal_object").innerHTML = animal.description();
+    </script>
+</body>
+</html>
